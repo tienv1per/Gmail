@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         array = ArrayList()
 
-        array.add(Item("Test", "Hello world", "12.90 PM", false))
+        array.add(Item("Today", "Learning C++", "6 PM", false))
 
         binding.listItem.adapter = CustomAdapter(this, array)
         binding.addMes.setOnClickListener { onClickAdd() }
